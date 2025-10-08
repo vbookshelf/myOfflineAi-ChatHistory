@@ -4,7 +4,7 @@
 
 <br>
 
-A privacy-first Flask desktop UI for Ollama with local chat history. Provides transparent, auditable and fully offline AI access for self-employed professionals, researchers, teachers and students who need data privacy and a clean, intuitive interface with built-in support for math notation and code rendering.
+A privacy-first Flask desktop UI for Ollama - with a chat history saving capability. Provides transparent, auditable and fully offline AI access for self-employed professionals, researchers, teachers and students who need data privacy and a clean, intuitive interface with built-in support for math notation and code rendering.
 
 - Ai access without an internet connection
 - Runs on the desktop.
@@ -13,5 +13,145 @@ A privacy-first Flask desktop UI for Ollama with local chat history. Provides tr
 - Chat histories are saved to a local, portable file
 - Built to be simple and transparent. Single-file architecture - code is easy to audit because HTML, CSS, JS and Python are all in one file.
 - Double-click a file to run. No need to use the command line after the initial setup.
+- Suports images and pdf files
 - Supports math notation and code rendering
 - The app is free, open source and has an MIT License.
+
+## How to Install and Run
+
+<br>
+
+In this section you will do the following:
+- Install the Ollama desktop app
+- Download a small 250MB text-only Ollama model
+- Install the UV Python package manager
+- Start the myOfflineAi app by double clicking a file
+
+Notes:<br>
+- I tested the installation process on Mac OS. Although I've included instructions for Windows, I haven't tested on Windows.
+- After setup, you only need to double-click a file to launch the app.
+
+System Requirements:
+- Recommended: 16GB RAM
+- Minimum: Depends on the model size
+- Enough free disk space to store the models you download
+
+<br>
+
+```
+1. Download and install the Ollama desktop application
+--------------------------------------------------------------
+
+This is the link to download Ollama. After downloading, please install it on your computer.
+Then launch it. A white chat window will open.
+https://ollama.com/
+
+Normally, Ollama will launch automatically when you start your computer.
+
+
+2. Download an Ollama model
+--------------------------------------------------------------
+
+1. Open the Ollama desktop app.
+2. Paste the model name (e.g. gemma3:270m) into the dropdown in the bottom right.
+3. Type any message e.g. Hi, and press Enter
+4. The model will start to auto download.
+
+If you have a fast internet connection and at least 8GB RAM then I suggest you download
+the gemma3:4b model (3.3GB).
+This model can handle both text and images.
+If you have a slow connection then download the smaller gemma3:270m model (292MB).
+This model can handle text only.
+
+
+3. Download the project folder and place it on your desktop
+--------------------------------------------------------------
+
+1. On GitHub click on "<> Code". The select "Download Zip"
+2. Download the project folder and unzip it
+3. Inside you will find a folder named myOfflineAi-v1.1
+4. Place myOfflineAi-v1.1 on your desktop.
+
+
+4. Initial Setup
+--------------------------------------------------------------
+
+[ macOS ]
+
+1. Open Terminal (Command+Space, type "Terminal")
+2. Paste this command into the terminal to install uv:
+wget -qO- https://astral.sh/uv/install.sh | sh
+3. Wait for uv installation to finish
+4. Type 'cd ' in the terminal (with a space after cd)
+5. Drag the myOfflineAi-v1.1 folder into the Terminal window
+6. Press Enter
+7. Paste this command into the terminal:
+cat start-mac-app.command > temp && mv temp start-mac-app.command && chmod +x start-mac-app.command
+8. Press Enter
+9. Open the myOfflineAi-v1.1 folder
+10. Double-click: start-mac-app.command
+
+
+[ Windows ]
+
+1. Press the Windows key on your keyboard
+2. Type cmd and press Enter (a black window will open)
+3. Copy this entire command:
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+4. Right-click in the black window to paste
+5. Press Enter
+6. Wait for "uv installed successfully" or similar message
+7. Close the window and open a new one for the changes to take effect
+8. Navigate to the myOfflineAi-v1.1 folder thats on your desktop
+9. Double-click: start-windows-app.bat
+
+If Windows shows a security warning:
+1. Right-click on start-windows-app.bat 
+2. Select "Properties"
+3. Check the "Unblock" box at the bottom
+4. Click "OK"
+5. Now double-click start-windows-app.bat to run
+
+
+5. Use the app
+--------------------------------------------------------------
+
+Click on "AI Assistant"
+Type a message.
+
+The name of the model you downloaded will appear in the dropdown menu in the top left.
+If you downloaded the gemma3:4b model you can submit images and pdf documents in addition to text.
+
+The app does not stop running when you close the browser tab.
+To shut down the app simply close the terminal window.
+You can also close the terminal by selecting it and typing Ctrl+C on Mac or Ctrl+C on Windows.
+
+
+6. Future startup
+--------------------------------------------------------------
+
+Now that the setup is complete, in future simply Double-click a file to launch the app.
+
+Mac:
+start-mac-app.command
+
+Windows:
+start-windows-app.bat
+
+You could start the app and leave it running in the background all day.
+Then whenever you want to use it, enter the following url in your browser:
+http://127.0.0.1:5000/
+Your browser will remember this local address so you won't have to.
+
+
+Quick Troubleshooting
+--------------------------------------------------------------
+- If the app doesn't start, make sure Ollama is running (look for its icon in your system tray/menu bar)
+- If you see "connection refused", restart Ollama
+- Make sure you've downloaded at least one model in Ollama before using the app
+
+```
+
+<br>
+
+
