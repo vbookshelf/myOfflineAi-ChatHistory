@@ -17,6 +17,8 @@ A privacy-first Flask desktop UI for Ollama - with a chat history saving capabil
 - Supports math notation and code rendering
 - The app is free, open source and has an MIT License.
 
+This is a sister app of the myOfflineAi-PrivacyFirst version. Because that version processes all user data ephemerally, it does not have a chat history capability. myOfflineAi-ChatHistory has the same privacy-first design, but it also has the ability to store chat histories - a feature many privacy concious users still need. The chat histories are stored in a file named conversations.json. You can easily find it in the project folder. Deleting conversations.json will delete all chat history data from your computer. 
+
 ## How to Install and Run
 
 <br>
@@ -152,6 +154,13 @@ Quick Troubleshooting
 
 ```
 
+
 <br>
+
+## Revision History
+
+Version 1.0<br>
+xx-Oct-2025<br>
+Prototype. Released for testing and education.
 
 
