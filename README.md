@@ -10,7 +10,7 @@ https://www.youtube.com/watch?v=m7NIjlvKLP8
 
 <br>
 
-A privacy-first Flask desktop UI for Ollama - with a chat history saving capability. Provides transparent, auditable and fully offline AI access for self-employed professionals, researchers, teachers and students who need data privacy. The app has a clean, intuitive interface with built-in support for math notation and code rendering.
+A privacy-first Flask desktop UI for Ollama - with a chat history saving capability to support complex, long running professional tasks. Provides transparent, auditable and fully offline AI access for self-employed professionals, researchers, teachers and students who need data privacy. The app has a clean, intuitive interface with built-in support for math notation and code rendering.
 
 - Ai access without an internet connection
 - Runs on the desktop.
