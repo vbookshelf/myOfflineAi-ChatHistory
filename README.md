@@ -163,6 +163,17 @@ Quick Troubleshooting
 
 ```
 
+<br>
+
+## App Family - Offline-First, Privacy-First
+
+- myOfflineAi-PrivacyFirst<br>
+  https://github.com/vbookshelf/myOfflineAi-PrivacyFirst<br>
+- myOfflineAi-ChatHistory<br>
+  https://github.com/vbookshelf/myOfflineAi-ChatHistory<br>
+- Chat-Image-Marker<br>
+  https://github.com/vbookshelf/Chat-Image-Marker<br>
+
 
 <br>
 
