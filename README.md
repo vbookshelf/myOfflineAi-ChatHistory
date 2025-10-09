@@ -194,11 +194,11 @@ Quick Troubleshooting
 
 ## App Family - Offline-First, Privacy-First
 
-- myOfflineAi-PrivacyFirst<br>
+- myOfflineAi-PrivacyFirst<br>(Maximum security. No chat history is saved.)<br>
   https://github.com/vbookshelf/myOfflineAi-PrivacyFirst<br>
-- myOfflineAi-ChatHistory<br>
+- myOfflineAi-ChatHistory<br>(Saves chats to a local file you control.)<br>
   https://github.com/vbookshelf/myOfflineAi-ChatHistory<br>
-- Chat-Image-Marker<br>
+- Chat-Image-Marker<br>(A simple, offline tool for marking up images.)<br>
   https://github.com/vbookshelf/Chat-Image-Marker<br>
 
 
