@@ -2058,7 +2058,9 @@ def stream_chat():
                     total_tokens = prompt_tokens + completion_tokens
 
                     print("[INFO] Finished streaming response.")
-                    print(f"   [STATS] Prompt/Completion/Total Tokens: {prompt_tokens}/{completion_tokens}/{total_tokens}")
+                    print(f"   [STATS] Prompt Tokens:     {prompt_tokens}")
+                    print(f"   [STATS] Completion Tokens: {completion_tokens}")
+                    print(f"   [STATS] Total Tokens:      {total_tokens}")
 
                     if total_tokens >= (NUM_CTX * 0.9):
                         warning_msg = f"Context is nearly full ({total_tokens}/{NUM_CTX} tokens). Start a new chat to avoid losing conversation history."
