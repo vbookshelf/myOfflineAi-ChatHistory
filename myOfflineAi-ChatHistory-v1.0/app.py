@@ -2063,7 +2063,7 @@ def stream_chat():
                     print(f"   [STATS] Total Tokens:      {total_tokens}")
 
                     if total_tokens >= (NUM_CTX * 0.9):
-                        warning_msg = f"Context is nearly full ({total_tokens}/{NUM_CTX} tokens). Start a new chat to avoid losing conversation history."
+                        warning_msg = f"Chat history is now {total_tokens} tokens. The maximum is {NUM_CTX}. The AI will lose track of the conversation. Please start a new chat."
                         print(f"[WARNING] {warning_msg}")
                         yield f"data: {json.dumps({'warning': warning_msg})}\n\n"
 
