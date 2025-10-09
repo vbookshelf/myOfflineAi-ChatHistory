@@ -169,7 +169,7 @@ Quick Troubleshooting
 ## Revision History
 
 Version 1.0<br>
-xx-Oct-2025<br>
+9-Oct-2025<br>
 Prototype. Released for testing and education.
 
 
