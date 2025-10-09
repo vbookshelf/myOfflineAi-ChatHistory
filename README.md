@@ -90,6 +90,10 @@ wget -qO- https://astral.sh/uv/install.sh | sh
 4. Type 'cd ' in the terminal (with a space after cd)
 5. Drag the folder into the Terminal window. A file path will appear.
 6. Press Enter
+If you get an error, then type in these commands in the terminal to manually cd into myOfflineAi-ChatHistory-v1.0 folder.
+cd Desktop
+cd myOfflineAi-ChatHistory-v1.0
+
 7. Paste this command into the terminal:
 
 cat start-mac-app.command > temp && mv temp start-mac-app.command && chmod +x start-mac-app.command
