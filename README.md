@@ -19,6 +19,29 @@ A privacy-first Flask desktop UI for Ollama - with a chat history saving capabil
 
 This is a sister app of the myOfflineAi-PrivacyFirst version. Because that version processes all user data ephemerally, it does not have a chat history capability. myOfflineAi-ChatHistory has the same privacy-first, easy to audit design, but it also has the ability to store chat histories - a feature many privacy concious users still need. The chat histories are stored in a file named conversations.json. You can easily find it in the project folder. Deleting conversations.json will delete all chat history data from your computer. 
 
+<br>
+
+<img src="images/image1.png" alt="App screenshot" height="500">
+<p>myOfflineAi App - Supports images and pdf files</p>
+
+<br>
+
+<img src="images/image2.png" alt="App screenshot" height="500">
+<p>myOfflineAi App - Supports math notation and code rendering</p>
+
+
+<br>
+
+<img src="https://github.com/vbookshelf/myOfflineAi-Flask-UI-for-Ollama/blob/main/images/image3.png" alt="Ollama desktop app screenshot" height="500">
+<p>Ollama Desktop App</p>
+
+<br>
+
+<img src="https://github.com/vbookshelf/myOfflineAi-Flask-UI-for-Ollama/blob/main/images/image4.png" alt="Ollama desktop app settings" height="500">
+<p>Ollama Settings - Airplane mode</p>
+
+<br>
+
 ## How to Install and Run
 
 <br>
