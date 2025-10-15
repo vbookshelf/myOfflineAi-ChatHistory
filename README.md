@@ -216,10 +216,10 @@ Quick Troubleshooting
 
 Version 1.1<br>
 15-Oct-2025<br>
-1. Added a webcam photo capability.<br>
+1- Added a webcam photo capability.<br>
 The webcam can be used to quickly snap photos of homework problems, hand written notes, hand written math solutions, hand drawn diagrams etc.<br>
 The photo is auto attached to the chat after being taken.<br>
-2. Made other changes.
+2- Made other changes.
 
 Version 1.0<br>
 9-Oct-2025<br>
