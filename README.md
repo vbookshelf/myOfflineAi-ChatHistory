@@ -200,6 +200,12 @@ Quick Troubleshooting
 
 <br>
 
+## Context size
+
+Please note that the context limit is set to 16000 tokens. You can change this setting in the app.py file. Many models, including Gemma3, have a context limit thats over 100k tokens. However, I set a lower size because setting a large context size slows down the model. You may need to increase the context size if your work involves long conversations, reviewing documents, reviewing images and other token heavy tasks.
+
+<br>
+
 ## Detailed writeup
 
 A detailed project writeup, including trouble-shooting info, is available here:<br>
