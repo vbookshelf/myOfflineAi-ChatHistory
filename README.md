@@ -16,6 +16,7 @@ A privacy-first Flask desktop UI for Ollama - with a chat history saving capabil
 - Runs on the desktop.
 - Chat with Ollama models
 - Create custom multimodal Ai tools - text, images, pdf (Specialized assistants - similar to Gemini Gems and OpenAi GPTs)
+- Use the webcam photo feature to snap photos of hand drawn diagrams, hand written notes etc. The photo is auto attached to the chat.
 - Chat histories are saved to a local, portable file
 - Built to be simple and transparent. Single-file architecture - code is easy to audit because HTML, CSS, JS and Python are all in one file.
 - Double-click a file to run. No need to use the command line after the initial setup.
