@@ -200,6 +200,13 @@ Quick Troubleshooting
 
 <br>
 
+## Detailed writeup
+
+A detailed project writeup, including trouble-shooting info, is available here:<br>
+https://github.com/vbookshelf/myOfflineAi-PrivacyFirst
+
+<br>
+
 ## App Family - Offline-First, Privacy-First, Transparent
 
 - myOfflineAi-PrivacyFirst<br>(Maximum security. No chat history is saved.)<br>
